@@ -24,3 +24,13 @@ You can also find us on #buildroot on Freenode IRC.
 
 If you would like to contribute patches, please read
 https://buildroot.org/manual.html#submitting-patches
+
+
+#### leez p710 buildroot 使用方法：  
+1，重新配置一下交叉编译器  
+2，make leezp710_defconfig  
+3，make
+4，output/image 下就是已经编译出来的 rootfs.tar
+整个编译过程大概 10 分钟内完成
+整个编译过程，需要占用硬盘 482MB 空间，最好预留 600MB 硬盘空间足够了。
+
